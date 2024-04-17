@@ -1,0 +1,12 @@
+name: Country
+title: Country
+username: crice0023
+account: crice0023
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11789233
+bundleId: 8507497
+url: https://crice0023.shinyapps.io/Country/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
