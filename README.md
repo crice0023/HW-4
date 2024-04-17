@@ -37,7 +37,7 @@ However, we also created an Overview, Attitudes to Democracy, News Consumption, 
 😄 Now users can explore and interact with Attitudes to Democracy, News Consumption, and Attitudes to Science tabs! 👍
 
 Last, we established a connection to shinyapps.io and confirmed any interested parties could effectively see the output we created. Unfortunately, there was an initial issue that would not allow users to view the output. Specifically, we learned that we needed to add the df1 (dataframe) reference to our shiny app.R code. Once that was in place the problem was resolved. Here is a link to the shiny app [Shiny App Link](https://crice0023.shinyapps.io/Country/)
-
+### Enjoy using this project :heart:
 ## Session Info
 
 ```
