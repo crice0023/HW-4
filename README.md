@@ -22,9 +22,9 @@ The codebook might be useful to any interested parties. Variable definitions, or
 Once we had our dataset we began the process of creating our Shiny App. Country was used as a reference to select using a drop down. Within the App we have 5 tabs. 
 
 
-![image]([C:\Users\ricecakes\Desktop\Git1\HW-4\HW-4Shiny_Layout_Photo.png](https://github.com/crice0023/HW-4/blob/main/Shiny_Layout_Photo.png))
+![image](https://github.com/crice0023/HW-4/blob/main/Shiny_Layout_Photo.png)
 
-We ended up adding 1 more tab to provide a link to the Codebook from the Shiny App. 
+We ended up adding 1 more tab than necessary to provide a link to the Codebook (see Variable Definitions tab) from the Shiny App. 
 However, we also created an Overview, Attitudes to Democracy, News Consumption, and Attitudes to Science tab. Within these tabs users can select a country of interest and a plot will be presented along with a table of of the proportions plotted. In addition, each tab has an additional table that follows the initial table which represents the global proportions for the variables in view. 
 
 Last, we established a connection to shinyapps.io and confirmed any interested parties could effectively see the output we created. Unfortunately, there was an initial issue that would not allow users to view the output. Specifically, we learned that we needed to add the df1 (dataframe) reference to our shiny app.R code. Once that was in place the problem was resolved. Here is a link to the shiny app [Shiny App Link](https://crice0023.shinyapps.io/Country/)
