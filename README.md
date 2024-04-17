@@ -34,7 +34,7 @@ Once we had our dataset where we wanted it to be we began the process of creatin
 We ended up adding 1 more tab than necessary to provide a link to the Codebook (see Variable Definitions tab) from the Shiny App. 
 However, we also created an Overview, Attitudes to Democracy, News Consumption, and Attitudes to Science tab. Within these tabs users can select a country of interest and a plot will be presented along with a table of of the proportions plotted. In addition, each tab has an additional table that follows the initial table which represents the global proportions for the variables in view. 
 
-### :heart: Now users can explore and interact with Attitudes to Democracy, News Consumption, and Attitudes to Science tabs! :thumbsup:
+### :tada: Now users can explore and interact with Attitudes to Democracy, News Consumption, and Attitudes to Science tabs! :thumbsup:
 
 Last, we established a connection to shinyapps.io and confirmed any interested parties could effectively see the output we created. Unfortunately, there was an initial issue that would not allow users to view the output. Specifically, we learned that we needed to add the df1 (dataframe) reference to our shiny app.R code. Once that was in place the problem was resolved. Here is a link to the shiny app [Shiny App Link](https://crice0023.shinyapps.io/Country/)
 ### Enjoy using this project :heart:
