@@ -1,6 +1,8 @@
 # HW-4 Modern Workflow in Data Science
 ### Chris Rice
-## Wave 6 Country Analysis Project
+ # Wave 6 Country Analysis Project
+# File Structure
+![image](https://github.com/crice0023/HW-4/assets/161267590/3da3fc0e-28ad-42a2-89d8-17c78e33607d)
 
 # Project Overview #
 This project started by going to the following website to extract a particular
