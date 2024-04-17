@@ -1,7 +1,7 @@
 # HW-4 Modern Workflow in Data Science
 ### Chris Rice
  # Wave 6 Country Analysis Project
-# File Structure
+## File Structure
 ![image](https://github.com/crice0023/HW-4/assets/161267590/3da3fc0e-28ad-42a2-89d8-17c78e33607d)
 
 # Project Overview #
@@ -14,20 +14,27 @@ of different formats such as R, CSV, and SAS. First, however, you need to ask pe
 We ended up downloading the CSV which did not import as intended. We found the STATA
 download much more user-friendly in terms of importing into R Studio. 
 
-Then we created a smaller data frame from the original which was comprised of only the columns we were interested in as well as the all of the countries within the WAVE 6. 
+Then we created a smaller data frame from the original which was comprised of only the columns we were interested in as well as the all of the countries within the WAVE 6.
+The app needed only one input: the country. Then followed by 4 sections or tab:
+a. Overview: here you can say what is the aim of the app and guide the user in how to navigate it
+b. Exploring attitudes to democracy (V228A-V228I) 
+c. Exploring news consumption (V217-V224) 
+d. Exploring attitudes to science (V192-197) 
 
 We explored the data frame and noticed there were some NAs. Instead of removing the NAs we opted to impute any NA values within the columns with the median value of the column. 
 The codebook might be useful to any interested parties. Variable definitions, or more specifically, questions asked along side answer choices can be found at the following location (please scroll down to find):
 [Wave 6 Codebook](https://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp)
 
 
-Once we had our dataset we began the process of creating our Shiny App. Country was used as a reference to select using a drop down. Within the App we have 5 tabs. 
+Once we had our dataset where we wanted it to be we began the process of creating our Shiny App. Country was used as user-reference point with a convenient drop down. Within the App we have 5 tabs. 
 
 
 ![image](https://github.com/crice0023/HW-4/blob/main/Shiny_Layout_Photo.png)
 
 We ended up adding 1 more tab than necessary to provide a link to the Codebook (see Variable Definitions tab) from the Shiny App. 
 However, we also created an Overview, Attitudes to Democracy, News Consumption, and Attitudes to Science tab. Within these tabs users can select a country of interest and a plot will be presented along with a table of of the proportions plotted. In addition, each tab has an additional table that follows the initial table which represents the global proportions for the variables in view. 
+
+Now users can explore and interact with Attitudes to Democracy, News Consumption, and Attitudes to Science tabs! 
 
 Last, we established a connection to shinyapps.io and confirmed any interested parties could effectively see the output we created. Unfortunately, there was an initial issue that would not allow users to view the output. Specifically, we learned that we needed to add the df1 (dataframe) reference to our shiny app.R code. Once that was in place the problem was resolved. Here is a link to the shiny app [Shiny App Link](https://crice0023.shinyapps.io/Country/)
 
